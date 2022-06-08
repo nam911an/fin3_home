@@ -1,0 +1,90 @@
+.userMenuActiveClass {
+    visibility: visible;
+}
+
+.userMenuIanctiveClass {
+    visibility: hidden;
+}
+
+.mobileMenuActiveClass {
+    visibility: visible;
+    height: auto;
+}
+
+.mobileMenuInactiveClass {
+    visibility: hidden;
+    height: 0px;
+}
+
+/*
+ h1.eth{
+    font-size: 0.5rem;
+    color: white;
+    font-weight: 700;
+} */
+/*
+@media only screen and (max-width: 320px) {
+   h1.eth{ font-size: 0.8rem;
+    color: white;
+    font-weight: 700;
+   }
+}*/
+.table.stickyy th{
+    position: sticky;
+    top:0;
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 375px) {
+    
+    #ethadd {
+        font-size: 0.65rem;
+    }
+    .dbhead{
+        font-size: 1.25rem;
+    }
+    .dbsub{
+        font-size: 0.75rem;
+    }
+}
+@media (min-width: 375px) and (max-width: 640px) {
+    #ethadd {
+        font-size: 0.8rem;
+    }
+    .dbhead{
+        font-size: 1.75rem;
+    }
+    .dbsub{
+        font-size: 1rem;
+    }
+}
+.tableFixHead {
+    overflow-y:
+    auto;height: 50vh;
+    }
+    
+    .tableFixHead thead th {
+    position: sticky;
+    top: 0;
+    }
+    
+    
+/* 
+ @media only screen and (min-width: 321px) {
+    h1.eth {
+      font-size: 0.75rem;
+    }
+  }
+  @media only screen and (min-width: 640px) {
+    h1.eth {
+      font-size:1.5rem;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    h1.eth {
+      font-size: 0.75rem;
+    }
+  } */
+
+
+  /* font-bold text-white  md:text-2xl lg:text-3xl eth */
